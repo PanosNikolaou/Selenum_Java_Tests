@@ -1,5 +1,10 @@
 package test_case_3;
 
+/*
+ * The test case verify_cart_items is a test case for selecting a product by filtering by brand new and producer 1more
+ * then adding it to the cart with warranty for 3 years and verifying the prices for the product, warranty, VAT and pay
+ */
+
 import org.junit.Assert;
 
 import java.util.concurrent.TimeUnit;
