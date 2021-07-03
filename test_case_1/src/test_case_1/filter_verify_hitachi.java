@@ -34,7 +34,7 @@ public class filter_verify_hitachi {
         WebDriver driver = new ChromeDriver();
 
         //Applied wait time
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
         //maximize window
         driver.manage().window().maximize();
